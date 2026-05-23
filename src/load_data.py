@@ -14,7 +14,7 @@ from pathlib import Path
 import pandas as pd
 
 
-DATA_PATH = Path("data/raw/handwriting_personality_traits.csv")
+DATA_PATH = Path("data/raw/handwriting_personality_large_dataset.csv")
 
 
 def load_dataset(path: Path = DATA_PATH) -> pd.DataFrame:
