@@ -1,0 +1,15 @@
+project:
+  name: Handwriting_To_Traits
+  description: Handwriting-based personality trait prediction and report generation
+
+data:
+  raw_dir: data/raw
+  processed_dir: data/processed
+
+model:
+  trait_prediction_model: random_forest
+  text_generation_model: t5-small
+
+generation:
+  max_input_length: 256
+  max_output_length: 180
