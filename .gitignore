@@ -34,3 +34,8 @@ checkpoints/
 
 # VS Code
 .vscode/
+
+# Generated reports
+reports/*.csv
+reports/*.txt
+!reports/dataset_notes.md
