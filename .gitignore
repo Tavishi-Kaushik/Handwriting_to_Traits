@@ -39,3 +39,6 @@ checkpoints/
 reports/*.csv
 reports/*.txt
 !reports/dataset_notes.md
+
+# Saved model artifacts
+models/*.joblib
