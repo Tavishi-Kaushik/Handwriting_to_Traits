@@ -19,6 +19,16 @@ env/
 # Data files
 data/*
 !data/.gitkeep
+!data/raw/
+!data/raw/.gitkeep
+!data/processed/
+!data/processed/.gitkeep
+
+# Generated reports
+reports/*.csv
+reports/*.txt
+!reports/dataset_notes.md
+!reports/final_project_summary.md
 
 # Model/checkpoint files
 models/
@@ -28,17 +38,17 @@ checkpoints/
 *.ckpt
 *.bin
 *.safetensors
+*.joblib
+
+# Experiment logs
+experiments/*.json
+experiments/t5_logs/
+
+# T5 model outputs
+models/t5_inkpersona/
 
 # OS files
 .DS_Store
 
 # VS Code
 .vscode/
-
-# Generated reports
-reports/*.csv
-reports/*.txt
-!reports/dataset_notes.md
-
-# Saved model artifacts
-models/*.joblib

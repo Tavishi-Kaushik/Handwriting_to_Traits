@@ -8,7 +8,7 @@ transformers
 datasets
 torch
 evaluate
-gradio
 joblib
 accelerate>=1.1.0
 streamlit
+pyarrow
